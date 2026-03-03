@@ -149,7 +149,7 @@ def main() -> None:
     env.setdefault("USE_TF", "0")
     env.setdefault(
         "PYTHONPATH",
-        "/mnt/data/zsk/ReGA_ICML/.deps_wandb:/mnt/data/zsk/ReGA_ICML/.deps_tf452:/mnt/data/zsk/ReGA_ICML/.deps_antlr413:/mnt/data/zsk/ReGA_ICML/.deps",
+        "",
     )
 
     log_file = Path(args.work_dir) / f"{args.run_name}.vlmeval.log"
